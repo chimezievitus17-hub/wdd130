@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+main img {
+    float: right;
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -25,4 +36,21 @@ img {
 
 p {
     padding: 10px;
+}
+
+/* class selector  */
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+
+}
+
+aside {
+    width: 20em;
+    text-align: center;
+
 }
